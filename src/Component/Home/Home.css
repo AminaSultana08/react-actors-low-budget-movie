@@ -1,0 +1,35 @@
+.card{
+    width: 250px;
+    height: 350px;
+    border: 2px solid gray;
+    
+}
+
+body{
+    font-family:  'Montserrat', sans-serif;
+    background-color:beige ;
+   
+    border: 2px solid red;
+    color: black;
+
+}
+.photo{
+    width: 80px;
+    border-radius: 50px;
+}
+.card-btn{
+    color: white;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.home-container{
+    display: flex;
+}
+.card-container{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
